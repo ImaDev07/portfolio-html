@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Мое портфолио- Иман</title>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+<!-- Simple Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-icons@latest/font/simple-icons.css" />
+
+<style>
+  body {
+    background-color: #fff;
+    color: #333;
+  }
+ 
+  h2 {
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+ 
+  .nav-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .portfolio-title {
+    color: #007bff;
+  }
+
+  #about p {
+    font-style: italic;
+  }
+
+  #projects .container {
+    display: flex;
+    justify-content: center;
+  }
+</style>
+</head>
+<body>
+
+<!-- Шапка сайта -->
+<header class="d-flex justify-content-between align-items-center p-3 border-bottom" id="header">
+  <div class="fs-4 fw-bold portfolio-title">My portfolio</div>
+  <div class="d-flex align-items-center nav-links">
+    <a href="#about" class="text-decoration-none text-secondary">Обо мне</a>
+    <a href="#projects" class="text-decoration-none text-secondary">Мои проекты</a>
+    <span class="mx-2 text-secondary">Контакты</span>
+  </div>
+</header>
+
+<!-- Главное -->
+<section class="text-center py-5 container" style="max-width: 700px;">
+  <h2 class="mb-3">Hello! I'm Iman</h2>
+  <p class="mb-4">Я начинающий веб-разработчик.</p>
+</section>
+
+<!-- Обо мне -->
+<section id="about" class="py-5 container">
+  <h2 class="text-center mb-4">Обо мне</h2>
+  <div class="row bg-light p-4 rounded-3">
+    <!-- Фото убрано -->
+    <div class="col-12">
+      <p>Привет! Меня зовут Иман, я начинающий веб-разработчик. Создаю сайты на HTML, CSS, Bootstrap. Хотите узнать подробнее? Можете связаться со мной, заполнив форму ниже.
+ </p>
+    </div>
+  </div>
+</section>
+
+<!-- Мои проекты -->
+<section id="projects" class="py-5 bg-light">
+  <h2 class="text-center mb-4">Мои проекты</h2>
+  <div class="container d-flex flex-wrap justify-content-center gap-3">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Проект 1</h5>
+        <p class="card-text">Описание проекта</p>
+        <a href="#" class="btn btn-primary">Подробнее</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Проект 2</h5>
+        <p class="card-text">Описание проекта</p>
+        <a href="#" class="btn btn-primary">Подробнее</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Проект 3</h5>
+        <p class="card-text">Описание проекта</p>
+        <a href="#" class="btn btn-primary">Подробнее</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Связаться со мной -->
+<section class="py-5 container" style="max-width: 700px;">
+  <h2 class="text-center mb-4">Связаться со мной</h2>
+  <form>
+    <div class="mb-3">
+      <input type="text" class="form-control" placeholder="Ваше имя" required>
+    </div>
+    <div class="mb-3">
+      <input type="email" class="form-control" placeholder="Электронная почта" required>
+    </div>
+    <div class="mb-3">
+      <textarea class="form-control" rows="4" placeholder="Ваше сообщение" required></textarea>
+    </div>
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary">Отправить</button>
+    </div>
+  </form>
+</section>
+
+<!-- Скрипт оставляем пустым -->
+<script>
+</script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
